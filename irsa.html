@@ -1,0 +1,211 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="screen.css">
+        <title>Document</title>
+    </head>
+    style{
+    *{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: rgb(26, 24, 24);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: rgb(56, 53, 53);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container .left_side
+{
+    position: relative;
+    background: rgb(209, 179, 81);
+    padding: 40px;
+}
+.container .left_side .profile_text
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 255);
+}
+.profile_text .imgbx
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile_text .imgbx img
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.profile_text h2
+{
+    color:rgb(20, 19, 19);
+    font-style: italic;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+.profile_text h2 span
+{
+    font-style: italic;
+    font-weight: 300;
+}
+
+.AboutMe
+{
+    padding: 40px;
+}
+.title
+{
+    color: rgb(17, 28, 133);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.AboutMe ul
+{
+    position: relative;
+}
+
+.AboutMe ul li
+{
+    color: rgb(8, 10, 99);
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.AboutMe ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 20px;
+    color:royalblue;
+}
+
+
+
+
+.container .right_side
+{
+    position:initial;
+    background: rgb(161, 16, 16);
+    padding: 50px;
+}
+.about
+{
+    margin-bottom: 50px;
+
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    color: rgb(19, 41, 107);
+    text-transform: uppercase;
+    letter-spacing: 10;
+    margin-bottom: 10px;
+     font-style: inherit;}
+     }
+    
+    <body>
+        <div class="container">
+            <div class="left_side">
+                <div class="profile_text">
+                    <div class="imgbx">
+                        <img src="imagee.jpeg" >
+            </div>
+                    <h2>
+                        Irsa Eman
+                         <br>
+                          <span>
+                              Front-End Web Developer
+                            </span>
+                        </h2>
+                </div>
+                <div class="AboutMe">
+                    <h3 class="title">
+                        Contact Info
+    
+                    </h3>
+                    <ul>
+                        <li>
+                            <span class="icon"><i class="fas fa-mobile-alt"></i></span>
+                            <span class="text">03058766843</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="far fa-envelope"></i></span>
+                            <span class="text">irsaeman21@gmail</span>
+                        </li>
+                    <li>
+                            <span class="icon"><i class="fas fa-globe-asia"></i></span>
+                            <span class="text">Pakistan</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fas fa-city"></i></span>
+                            <span class="text">Chichawatni</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="right_side"> <div class="about">
+                <h2 class="title2">Profile</h2>
+                <p>
+                    Hey! my name Irsa and m doing Bscs <br> I want to be a good Developer <br> that's why I am working on <b>HTML,CSS,java</b>
+                </p><br>
+                <div class="about"><br>
+                    <h2 class="title2"> Skills</h2><br>
+                    <p>
+                        <ul>
+                            <li>
+                                HTML 5
+                        </li>
+                        <li>
+                            CSS 3
+                        </li>
+                        <li>
+                            java
+                        </li>
+                    </ul>
+    
+                    </p>
+                </div>
+           
+                </div>
+            </div>
+        </div>
+    </body>
