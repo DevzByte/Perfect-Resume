@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Based on Html and CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body>
+    <div class="container" >
+        <div class="left_side">
+         <div class="profileText">
+          <div class="imgBox">
+            <img src="remove.png">;
+          </div>
+          <h2>Tanveer Ahmed<br><span>Web Developer</span></h2>   
+         </div>
+         <div class="contactInfo">
+             <h3 class="title">Contact Info</h3>
+             <ul>
+                 <li>
+                     <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                     <span class="text">0333-123 456789</span>
+                 </li>
+                 <li>
+                    <span class="icon"><i class="fa fa-map-pin" aria-hidden="true"></i></span>
+                    <span class="text">Pakistan Navy </span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                    <span class="text">tenveermariner62@gmail</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                    <span class="text">Pakistan</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-address-book" aria-hidden="true"></i></span>
+                    <span class="text">Karachi</span>
+                </li>
+                <li>
+                    <span class="icon"></span>
+                    <span class="text"></span>
+                </li>
+             </ul>
+         </div>
+         
+        <div class="contactInfo language">
+            <h3 class="title">Languages</h3>
+            <ul>
+                <li>
+                    <span class="text">English</span>
+                    <span class="percent">
+                        <div style="width: 90%;"></div>
+                    </span>
+                </li>
+                <li>
+                    <span class="text">Urdu</span>
+                    <span class="percent">
+                        <div style="width: 100%;"></div>
+                    </span>
+                </li>
+             </ul>
+            </div>
+        </div>
+               <div class="right_side">
+                   <div class="about">
+                    <h2 class="title2"> My Pfofile</h2>
+                    <p>I am a front_end web Developer with over 1 year of experience in Web Designing.<br>I am enthusiastic
+                    for challenges and high pressure work environment and ready to<br>adapt to the changing deadlines<br>to meet
+                the customer's needs.<br> </p>
+                   </div>
+                   <div class="about">
+                    <h2 class="title2">Work Experiance</h2>
+                    <div class="box">
+                        <div class="year_company">
+                            <h5>2020-present</h5>
+                            <h5>Company name</h5>
+                            <h4>Shah Industry</h4>
+                </div>
+            </div>
+            <div class="about">
+                <h2 class="title2">Interest</h2>
+            <div class="box">
+                <div class="hobbies">
+                    <h5>Intelligent systems</h5>
+                    <h5>Computer vision and graphics</h5>
+                    <h5>User Interface Design</h5>
+                    <h5>Web and Mobile Application Development</h5>
+        </div>
+    </div>
+    <h2 class="title2">Education</h2>
+            <ul>
+                <li>
+                    <h5><b>2019 - 2021</b></h5>
+                    <h4>Master Degree in Computer Science</h4>
+                    <h4>Virtual University</h4>
+               </li>
+               <li>
+                <h5><b>2016 - 2018</b></h5>
+                <h4>Bachelor Degree in Commerce</h4>
+                <h4>Karachi University</h4>
+                </li>
+                <li>
+                    <h5><b>2013 - 2015</b></h5>
+                    <h4>Inter in Business Commerce</h4>
+                    <h4>Govt boys College</h4>
+               </li>
+               <li>
+                <h5><b>2010 - 2012</b></h5>
+                <h4>Matriculation</h4>
+                <h4>The Educator</h4>
+           </li>
+        </ul>
+        </div>
+
+
+    <div class="about">
+        <h2 class="title2">Professional Skills</h2>
+    <div class="box">
+        <div class="skills">
+            <p>Highly skilled in the following fields.</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <LI>C++</LI>
+                <li>JAVA</li>
+                <li>CONTENT WRITING</li>
+        </ul>
+
+</div>
+</div>
+         </div>      
+
+
+         <div class="about">
+            <h2 class="title2">Social</h2>
+        <div class="box">
+            <div class="social">
+                <ul>
+                    <li>FACEBOOK</li>
+                    <li>TWITTER</li>
+                    <LI>YOUTUBE</LI>
+            </ul>
+    
+    </div>
+    </div>
+             </div>      
+    </div>
+    </div>
+    
+</body>
+</html>
