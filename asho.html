@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  <style>
+  ul{
+    margin:0px;
+    padding:0px;
+}
+ul li{
+    background-color:blueviolet;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border: 2px solid black;
+    float:left;
+    text-align:center;
+    display: block;
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+    display: block;
+}
+ul li a:hover{
+background-color:chartreuse;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+display: block;
+}
+
+  </style>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Countries</a>
+            <ul>
+                <li><a href="#">Pakistan</a></li>
+                <li><a href="#">UAE</a></li>
+                <li><a href="#">USA</a></li>
+                <li><a href="#">England</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</body>
+</html>
