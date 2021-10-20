@@ -1,4 +1,4 @@
-<img src="image.png" alt="Hacktober Fest Cover Image" align=center>
+<img src="https://raw.githubusercontent.com/mrsaifullah52/learn-js/main/image.png" alt="Hacktober Fest Cover Image" align=center>
 
 # How to contribute
 
