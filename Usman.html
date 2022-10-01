@@ -6,6 +6,138 @@
             CV
         </title>
     </head>
+  body
+{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: rgb(163, 163, 163);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container .left_side
+{
+    position: relative;
+    background: rgb(9, 27, 80);
+    padding: 40px;
+}
+.container .left_side .profile_text
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 255);
+}
+.profile_text .imgbx
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile_text .imgbx img
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.profile_text h2
+{
+    color:#fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+.profile_text h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.AboutMe
+{
+    padding: 40px;
+}
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.AboutMe ul
+{
+    position: relative;
+}
+
+.AboutMe ul li
+{
+    color: gold;
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.AboutMe ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 20px;
+    color:royalblue;
+}
+
+
+
+
+.container .right_side
+{
+    position:initial;
+    background: rgb(253, 218, 218);
+    padding: 50px;
+}
+.about
+{
+    margin-bottom: 50px;
+
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    color: rgb(9, 27, 80);
+    text-transform: uppercase;
+    letter-spacing: 10;
+    margin-bottom: 10px;
+}
 </html>
 <body>
     <div class="container">
