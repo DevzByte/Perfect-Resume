@@ -18,6 +18,8 @@ body{
     background-image: url(hju.jpg);
     background-position: center;
     background-size: cover;
+    font-size: 20px;
+    line-height: 30px;
     height: 100kvh;
     color:#f3f3f3;
 }
@@ -27,7 +29,7 @@ margin:50px auto 0px auto;
 
 }
 form{
-    background-color:rgba(56, 8, 133, 0.342);
+    background-color:rgba(47, 0, 122, 0.342);
     padding:30px;
     border-radius: 5px;
 }
@@ -76,9 +78,15 @@ margin: 3px 0px;
 }
 .form-group input[type=button]{
 height: 35px;
-font-size: 15px;
-background-color: #37af65;
-color:#fff;
+font-size: 24px;
+background-color: #fff;
+color:rgba(22, 5, 48, 0.696);
+border: 2px solid white;
+border-radius: 5px;
+}
+.form-group input:hover{
+    background-color: rgba(47, 0, 122, 0.342);
+    color: #fff;
 }
   </style>
 <body>
@@ -92,18 +100,18 @@ color:#fff;
         <label for="">
             Name
         </label>
-<input type="text" placeholder="Enter your name" class="input-group" ></label>
+<input  type="text" placeholder="Enter your name" class="input-group" ></label>
         
         <div class="form-group">
             <label for="">
-E-mail
+E-mail:
         </label>
         <input type="E-mail" placeholder="Enter your email" class="input-group" /></div>
     <div class="form-group">
         <label for="">
-Age(optional)
+Age:
         </label>
-        <input type="text" placeholder="Age" class="input-group "/></div>
+        <input type="number" placeholder="Age" class="input-group "/></div>
     <div class="form-group">
         <p>Which option best describes your current role?</p>
         <select name="role" id="role" class="selection-group" >
@@ -148,13 +156,13 @@ Age(optional)
 
     <div class="form-group">
         <label for="suggestion">
-Any comment or suggestion?
+Please leave your Suggestions:
         </label>
-        <textarea name="suggestion" id="suggestion" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+        <textarea name="suggestion" id="suggestion" cols="30" rows="10" placeholder="Enter your comment here..." style="font-size: 16px;"></textarea>
     </div>
 
     <div class="form-group">
-        <input type="button" value="submit"></div>
+        <input type="button" value="Submit" style="font-size: 20px;"></div>
    </form>
 </div>
 </body>
