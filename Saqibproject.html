@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 94%;
+  margin: 0px auto;
+}
+
+header .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .content nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .content nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .content nav ul li {
+  list-style: none;
+}
+
+header .content nav ul li a {
+  text-decoration: none;
+  color: gray;
+  padding: 8px 16px;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+header .content nav ul li a:hover {
+  border: 1px solid gray;
+}
+header .content nav img {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+/* banner */
+#banner {
+  width: 100%;
+}
+
+#banner .content {
+  width: 100%;
+  min-height: 350px;
+  background-color: aquamarine;
+  border-top-right-radius: 8px;
+  margin-top: 8px;
+
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+#banner .content .details {
+  position: relative;
+  width: 40%;
+  padding: 30px;
+}
+
+#banner .content .details h1 {
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner .content .details .cta {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+#banner .content .details .cta a {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+}
+
+#banner .content .details .cta a:first-child {
+  background-color: orangered;
+  color: white;
+}
+
+#banner .content .details form {
+  margin-top: 15px;
+}
+
+#banner .content .details form .input_group {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#banner .content .details form .input_group input {
+  width: 100%;
+  padding: 8px 15px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+#banner .content .details form .input_group button {
+  padding: 8px;
+  outline: none;
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+#banner .content .details .bimg img {
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 172%;
+  min-height: 350px;
+  width: 400px;
+}
+#cards .container .content .left {
+    width: 100%;
+  margin-top: 20px;
+}
+#cards .container .content .left .cimg {
+  display: flex;
+  gap: 15px;
+  margin: 20px;
+}
+#cards .container .content .left .cimg img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+#cards .container .content {
+  display: flex;
+}
+#cards .container .content .right {
+  margin-top: 20px;
+}
+#cards .container .content .posts .post {
+  width: 100%;
+  height: 150px;
+  border: 2px solid rgb(240, 228, 228);
+  padding: 5px 50px 5px 5px;
+  border-radius: 4px;
+  display: flex;
+}
+#cards .container .content .posts .post .limg {
+  width: 100%;
+}
+
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="content">
+          <div class="">
+            <a href="#">DevE</a>
+          </div>
+
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Buy</a>
+              </li>
+              <li>
+                <a href="#">Register</a>
+              </li>
+            </ul>
+
+            <a href="#"> <img src="./assets/img.jpg" alt="" /> </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- banner section -->
+    <section id="banner">
+      <div class="container">
+        <div class="content">
+          <div class="details">
+            <h1>Improve your skills to fulfill your dreams.</h1>
+
+            <div class="cta">
+              <a href="#">Enroll now</a>
+              <a href="#">Learn more</a>
+            </div>
+
+            <form>
+              <div class="input_group">
+                <input
+                  type="search"
+                  name="query"
+                  id="query"
+                  placeholder="Search for Web, Apps, IOS development"
+                />
+                <button>Q</button>
+              </div>
+            </form>
+            <div class="bimg">
+              <img src="./assets/download-removebg-preview.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cards">
+      <div class="container">
+        <div class="content">
+          <div class="left">
+            <h3>Trending Courses</h3>
+            <p>Lorem Ispum dollar rate</p>
+            <div class="cimg">
+              <img src="./assets/app.jpg" alt="" />
+              <img src="./assets/best-mobile-websites.webp" alt="" />
+              <img src="./assets/download.jpg" alt="" />
+            </div>
+
+          </div>
+          <div class="right">
+            <h3>Recomended courses</h3>
+            <p>Lorem Ispum dollar rate</p>
+            <div class="posts">
+              <div class="post">
+                <div class="limg"><img src="./assets/download.jpg" alt="" width="150px"/></div>
+                <div class="data">
+                  <h5>App Development</h5>
+                  <span>$150.00</span>
+                  <p>Lorem ispum dolar</p>
+                </div>  
+              </div>
+              <div class="post">
+                <div class="limg"><img src="./assets/img.jpg" alt="" width="150px"/></div>
+                <div class="data">
+                  <h5>Data Science</h5>
+                  <span>$350.00</span>
+                  <p>Lorem ispum dolar</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
