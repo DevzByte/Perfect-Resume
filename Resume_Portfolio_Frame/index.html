@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Portfolio</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> 
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About Me</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#project" class="navbar__links" id="project-page"
+              >Projects</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section-->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Hi! I am <span>Harsh</span></h1>
+        <p class="hero__description">Student & Developer</p>
+        <!-- <button class="main__btn"><a href="#about">About Me</a></button> -->
+        <!-- HTML !-->
+        <button class="button-52" role="button">About Me.</button>
+      </div>
+    </div>
+
+    <!--About me-->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card">
+            <img src="img/iscometric home.png" alt="home icon" width="400px" height="400px">
+          </div>
+        </div>
+        <div class="main__content">
+          <h1>What is a Student/Developer?</h1>
+          <h2>One who manages the studies and develop at the same time.</h2>
+          <p>Projects and Application developmennt is the key to learn.</p>
+          <button class="button-52"><a href="#project">Projects</a></button>
+        </div>
+      </div>
+    </div>
+    <!--Projects-->
+    <div class="pro__main" id="project">
+      <div class="project__container">
+        <div class="project__img--container">
+          <h1>Project Art</h1>
+          <div class="project__img--card">
+            <img src="img/project_img-4.jpg" alt="dark" width="200px" height="300px">
+            <img src="img/project_img-1.jpg" alt="blood-cig" width="300px" height="300px">
+            <img src="img/project_img-3.jpg" alt="blood-toung" width="300px" height="300px">
+            <img src="img/project_img-2.jpg" alt="blood-toung" width="300px" height="300px">
+            <img src="img/project_img-5.jfif" alt="blood-toung" width="300px" height="300px">
+          </div>
+        </div>
+        <div class="project__content">
+          <h2>Dark</h2>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
