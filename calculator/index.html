@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+.content{
+    width: 260px;
+    height: 390px;
+    border:3px solid black;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    transform: translate(-50,-50);  
+    border-radius: 10px; 
+    overflow: hidden;
+    padding: 25px;
+    background-color: rgb(91, 90, 95);
+    box-shadow: 30px 30px rgb(220, 220, 230);
+}
+
+.screen{
+    width: 95%;
+    padding: 25px 5px;
+    background-color: lightgray;
+    border: 2px solid rgb(34, 33, 33);
+    border-radius: 5px;
+}
+.content .parent .btn input[type=button]{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    border-radius: 4px;
+    font-size: 30px;
+    box-shadow: 4px 5px #ebe1e1;
+}
+.content .parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.content .parent .btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img img{
+    width: 500px;
+    height: 600px;
+}
+    </style>
+</head>
+<body>
+    <div class="content"> 
+        <input type="text" class="screen">
+        <br>
+        <div class="parent">
+            <div class="btn">
+                <input type="button" value="%">
+            <input type="button" value="7">
+            <input type="button" value="4">
+            <input type="button" value="1">
+            <input type="button" value="+/-">
+            </div>
+            <div class="btn">
+                <input type="button" value="CE">
+            <input type="button" value="8">
+            <input type="button" value="5">
+            <input type="button" value="2">
+            <input type="button" value="0">
+            </div>
+            <div class="btn">
+                <input type="button" value="C">
+            <input type="button" value="9">
+            <input type="button" value="6">
+            <input type="button" value="3">
+            <input type="button" value=".">
+            </div>
+            <div class="btn">
+                <input type="button" value="/">
+            <input type="button" value="*">
+            <input type="button" value="-">
+            <input type="button" value="+">
+            <input type="button" value="=">
+            </div>
+        </div>
+    
+    </div>
+    <div class="img">
+        <img src="./girl.png" alt="">
+    </div>
+</body>
+</html>
