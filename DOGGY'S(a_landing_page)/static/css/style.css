@@ -1,0 +1,141 @@
+body{
+    font-family: "Monteserrat";
+    text-align: center;
+}
+
+#title{
+    background-color:rgb(221 54 109);
+    color: white;
+    text-align: left;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:"Monteserrat-bold" ;
+}
+.big-heading{
+    font-size: 5rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+.price-text{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.testimonial-text{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.section-heading{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.feature-title{
+    font-size:2.5rem;
+}
+ 
+.container-fluid{
+    padding:3% 15%;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding:0;
+    
+}
+
+.navbar{
+    padding: 0 0 2rem ;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size:1.4rem;
+    font-family: "monteserrat-light ";
+}
+.btn{
+    margin:2px 12px 0 0;
+}
+.dog-image{
+    width:50%;
+    margin:0 8rem;
+    transform:rotate(25deg);
+}
+.feature-box{
+    padding:4.5%;
+}
+.icon-text{
+    color:#8f8f8f;
+}
+.icon2{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon2:hover{
+    color:#ff4c68;
+}
+#features{
+    padding:4% 15%;
+}
+#testimonials{
+    padding:4% 15%;
+    background-color:#ef8172;
+    color: white;
+}
+.testimonials-image{
+    border-radius: 100%;
+    width:13%;
+    margin: 1rem;
+}
+#press{
+    background-color:#ef8172;
+    padding-top: 8rem;
+    padding-bottom: 20px;
+}
+.press-logo{
+    width:12%;
+    margin:15px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.column-pricing{
+     padding:3% 2%;
+}
+@media (max-width:1000px) {
+
+    .dog-image{
+        position:static;
+        transform:rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    background-color:rgb(221 54 109);
+    color: white;
+    font-family: "Monteserrat-bold";
+    padding:5rem 0;
+}
+.cta-h3{
+    font-family: "Monteserrat-bold";
+    font-size: 4rem;
+    line-height: 1.5;
+}
+#footer{
+    background-color: white;
+    padding:2% ;
+}
+.footer-icon{
+    margin:0% 1% 2% 1%;
+}
+.copyright-p{
+    color:#8f8f8f;
+    font-weight: bold;
+}
+
